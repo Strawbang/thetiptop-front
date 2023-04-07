@@ -1,0 +1,33 @@
+.notice {
+    text-align: center;
+    margin-top: 25%;
+}
+.confirmation-container {
+    margin: auto;
+    padding: 1rem 0;
+    width: 50%;
+}
+
+.confirmation-container .notice p {
+    text-align: justify;
+}
+.particapteButton {
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 22px;
+	background-color: #326148;
+	color: white;
+	border-radius: 10px;
+}
+.particapteButton:hover {
+	background-color: #ffffff;
+	color: #326148;
+	border: 1px solid #326148;
+}
+@media only screen and (max-width: 640px) {
+    .confirmation-container {
+        margin: auto;
+        padding: 1rem 0.5rem;
+        width: 95%;
+    }
+}
